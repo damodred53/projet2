@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+  }
+  
+  body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1f2039;
+  }
+  
+  a {
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
+  
+  h1 {
+    font-size: 2em;
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h2 {
+    color: #f9f8ff;
+  }
+  
+  p,
+  li {
+    font-size: 1.1em;
+    color: #f9f8ff;
+  }
+  
+  header,
+  footer {
+    background-color: white;
+    padding: 20px 50px;
+  }
+  footer
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+ .surbloc
+ {
+  background-color: whitesmoke;
+  padding-bottom: 70px;
+ }
+  .cta {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 20px 30px;
+    margin-top: 80px;
+    margin-left: 250px;
+  }
+  .lien_portoflio1
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .cta:hover {
+    background: linear-gradient(#696484, #8788ba);
+    text-decoration: none;
+  }
+  
+  .lien-icone:hover {
+    opacity: 0.5;
+  }
+  
+  .carre-contenu {
+    border-right: 1px solid #8e86b5;
+    border-bottom: 1px solid #8e86b5;
+    padding: 50px;
+  }
+  
+  .carre-contenu h2 {
+    margin-top: 30px;
+  }
+  
+  .carre-contenu ul {
+    margin-top: 30px;
+  }
+  
+  section {
+    padding: 80px;
+  }
+  
+  .a-propos-main {
+    width: 50%;
+    margin: auto;
+  }
+  .navigation-1
+  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+  }
+  .image_debut
+  {
+    padding-right: 150px;
+  }
+  .corps
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .corps_du_texte
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .photo
+  {
+    margin-left: 60px;
+  }
+  .accueil-photo
+  {
+    background-color: #ffffff;
+  }
+  .voir_portfolio
+  {
+    background: linear-gradient(#8E86B5, #ACAEED) ;
+    width: 276px;
+    height: 63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-left: 40%;
+    
+  }
+  .portfolio_2
+  {
+    color: white;
+  }
+  .dernier_projet
+  {
+    margin-bottom: 30px;
+  }
+  .bloc
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  /*portoflio*/
+
+  .conteneur_paysage
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  .conteneur_portrait
+  {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 300px 300px;
+    gap: 15px;
+  }
+  .conteneur_paysage img, .conteneur_portrait img
+  {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .portfolio-section-photos
+  {
+    background-color: whitesmoke;
+  }
+  .portfolio_voyages
+  {
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  /*tarifs*/
+
+
+
+  .banner_tarif
+  {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 120px;
+
+  }
+  .lien_contact
+  {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 20px 30px;
+  }
+  
+  .big_box h3, h4
+  {
+    color: #A5B4FC;
+  }
+  .big_box p
+  {
+    margin-top: 21px;
+  }
+  .big_box h4
+  {
+    margin-top: 30px;
+  }
+  .big_box small
+  {
+    margin-top: 20px;
+  }
+  .box_1, .box_2, .box_3
+  {
+    border-bottom: solid 1px #A5B4FC;
+    border-right: solid 1px #A5B4FC;
+    margin-right: 70px;
+    padding-bottom: 40px;
+    padding-right: 20px;
+  }
+  .big_box
+  {
+    display: flex;
+    flex-direction: row;
+
+      margin-top: 60px;
+  }
+  td, th
+  {
+    border: 1px solid #A5B4FC ;
+    padding: 95px;
+    width: auto;
+    color: whitesmoke;
+  }
+  .tableau, .big_box
+  {
+    border-collapse: collapse;
+    margin-left: 400px;
+    margin-right: auto;
+  }
+  .tableau
+  {
+  margin-top: 60px;
+  }
+  .tableau_tarif
+  {
+    margin: auto;
+    padding-top: 40px;
+    padding-right: 420px;
+    margin-bottom: 100px;
+  }
+  .section-lien
+  {
+    padding-bottom: 80px;
+    padding-top: 0px;
+  }
+
+  /*formulaire de l'accueuil*/
+
+  .titre_formulaire
+  {
+    color: #a5b4fc;
+    text-align: center;
+  }
+ 
+
+  .contenue_formulaire
+  {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    color: white;
+    margin-top: 50px;
+  }
+  .formulaire_nom_mail
+  {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+  }
+  .mail, .nom
+  {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .bouton_envoi
+  {
+    background: linear-gradient(#8e86b5, #acaeed);
+    color: white;
+    border-radius: 50px;
+    width: 10%;
+    margin: auto;
+    margin-top: 40px;
+    padding: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+  }
+
+
+ /*mediaqueries*/
+
+
+
+
+  
+
+
+
+
+  
+  
+
+  
+  
